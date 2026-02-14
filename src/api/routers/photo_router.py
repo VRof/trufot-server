@@ -6,7 +6,7 @@ from src.api.schemas import PhotoUploadResponse
 
 router = APIRouter(prefix="/photos", tags=["pills photos"])
 
-PHOTOS_BASE_DIR = "../photos"
+PHOTOS_BASE_DIR = "/app/photos"
 
 
 @router.post("/upload", response_model=PhotoUploadResponse, status_code=201)
