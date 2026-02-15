@@ -1,6 +1,8 @@
 container for api (fastapi)
 container for db (postgresql)
 
+TODO: add NGINX
+
 rename .env.example to .env
 
 make sure port 8000 isn't used
