@@ -11,6 +11,8 @@ to build and run console attached : docker compose up
 
 to build and run console deattached (in background) : docker compose up -d
 
+to build new container if there any changes in project: docker-compose up --build --force-recreate
+
 to shutdown: docker compose down
 
 to shutdown and WIPE ALL DATA : docker compose down -v
